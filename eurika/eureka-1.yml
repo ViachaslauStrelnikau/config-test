@@ -4,7 +4,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://${other.eureka.host}:${other.eureka.port}/eureka
-eureka:
   instance:
     hostname: eureka1.tacocloud.com
 other:
