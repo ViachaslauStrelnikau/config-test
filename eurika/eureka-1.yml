@@ -1,16 +1,13 @@
+server:
+  port: 8761
 eureka:
   client:
     service-url:
       defaultZone: http://${other.eureka.host}:${other.eureka.port}/eureka
-server:
-  port: 8761
-
 eureka:
   instance:
     hostname: eureka1.tacocloud.com
-
 other:
   eureka:
-
     host: localhost
     port: 8762
